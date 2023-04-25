@@ -1,2 +1,4 @@
-# This is a repo for our newe GCP DevOps project in kodekloud 
-added line 2
+# Docker flask application
+
+- This application is written in python
+- it shall be deployed on GKE
