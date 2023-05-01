@@ -5,6 +5,7 @@ steps:
   args: ["push", "gcr.io/$PROJECT_ID/gcpdevops"]
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
+  # test
   - run
   - --filename=gke.yaml
   - --image=gcr.io/$PROJECT_ID/gcpdevops
